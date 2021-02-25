@@ -2,6 +2,11 @@
 0. 
    安装私链环境 geth
    安装开发环境 solidity, remix + remixd
+   
+   Mac系统下，如果npm install过程中需要XCode Command Line Tool（错误代码：gyp: No Xcode or CLT version detected!），可执行下列操作解决：
+      sudo rm -rf $(xcode-select -p)
+      sudo xcode-select --install
+   
 
 1. 创建私链环境
    ./step0.sh
