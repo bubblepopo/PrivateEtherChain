@@ -4,8 +4,8 @@
       brew tap ethereum/ethereum
       brew install ethereum
    安装开发环境 solidity, remix + remixd
-      npm install -g solc
-      npm install -g remix
+      brew install solidity
+      docker pull remixproject/remix-ide:remix_live
       npm install -g remixd
    
    Mac系统下，如果npm install过程中需要XCode Command Line Tool（错误代码：gyp: No Xcode or CLT version detected!），可执行下列操作解决：
