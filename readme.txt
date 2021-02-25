@@ -1,10 +1,11 @@
 
 0. 
-   安装私链环境 geth
+   安装以太坊区块链控制台 geth
       brew tap ethereum/ethereum
       brew install ethereum
-   安装开发环境 solidity, remix + remixd
+   安装Solidity编译器
       brew install solidity
+   安装集成开发环境 Remix IDE + remixd
       docker pull remixproject/remix-ide:remix_live
       npm install -g remixd
    
